@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="Index.js" defer></script>
+
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <div class="logo"><img src="logo.PNG" alt="logo"></div>
+            <ul>
+                <a href="INDEX.HTML"><li>Home</li></a>
+                <a href="Contact.html"><li>Contact Us</li></a>
+                <a href="About.html"><li>About US</li></a>
+
+                <a href="add.html"><li>Admission</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="bars">
+        <button onclick="myFunction()"><i class="fa-solid fa-bars fa-3x" id="menu-icon"></i></button>
+
+    </div>
+   
+    
+    <nav class="navbar" id="navbar">
+        <ul>
+            <a href="index.html"><li> <div class="logo"><img src="logo.PNG" alt="logo"></div></li></a>
+            <div class="home"><a href="index.html"><li>Home</li></a></div>
+            <a href="Contact.html"><li>Contact Us</li></a>
+            <a href="About.html"><li>About</li></a>
+
+            <a href="add.html"><li>Admission</li></a>
+        </ul>
+    </nav>
+
+  
+
+
+
+       
+        <section id="application" class="section">
+            <h2>Start Your Application</h2>
+            <p>Begin your journey at Tranch University by filling out our straightforward online application form. The process is designed to be user-friendly, ensuring you can easily provide the necessary information.</p>
+        </section>
+
+        <section id="requirements" class="section">
+            <h2>Understand Our Admission Requirements</h2>
+            <p>To qualify for admission, you must pass a standardized test and maintain a minimum GPA of 3.00. This ensures that all our students are academically prepared to succeed in our rigorous programs.</p>
+            <p>As part of the application process, you are required to upload your Year 11 test results. This helps us assess your academic performance and readiness for university-level studies.</p>
+        </section>
+
+        <section id="financial-aid" class="section">
+            <h2>Financial Aid and Scholarships</h2>
+            <p>Tranch University offers generous tuition discounts based on your GPA:</p>
+            <ul>
+                <li><strong>50% Discount:</strong> Available for students with a GPA of 3.95 or higher.</li>
+                <li><strong>60% Discount:</strong> Awarded to students who achieve a perfect GPA.</li>
+            </ul>
+            <p>Our financial aid program is designed to reward academic excellence, making quality education more accessible.</p>
+        </section>
+
+        <section id="international" class="section">
+            <h2>Information for International Students</h2>
+            <p>International applicants must demonstrate fluency in English to ensure they can fully participate in our academic programs. This requirement is essential for your success both in and out of the classroom.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Connect with Our Admissions Office</h2>
+            <p>If you have any questions or need assistance with your application, don’t hesitate to reach out to our admissions team. We are available via email, phone, or in person to guide you through the process.</p>
+        </section>
+
+
+
+           <section class="section">
+            <h2>Get Started With Addmission Form :</h2>
+           </section>
+
+            <div class="container2">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8f85c70f-670d-4032-b8fb-caac69589a2b">
+                    <h2>Personal Information</h2>
+                <label for="first-name">First Name (required):</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name (required):</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="dob">Date of Birth (required):</label>
+                <input type="date" id="dob" name="dob" required>
+                
+                <label for="gender">Gender (required):</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <label for="nationality">Nationality (required):</label>
+                <input type="text" id="nationality" name="nationality" required>
+            </section>
+
+            <section class="section1">
+                <h2>Contact Information</h2>
+                <label for="email">Email Address (required):</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number (required):</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="address">Address (required):</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </section>
+
+            <section class="section1">
+                <h2>Academic Background</h2>
+                <label for="highschool">High School Name (required):</label>
+                <input type="text" id="highschool" name="highschool" required>
+                
+                <label for="highschool-gpa">High School GPA (required):</label>
+                <input type="number" id="highschool-gpa" name="highschool-gpa" step="0.01" min="0" max="4" required>
+                
+                <label for="test-scores">Test Scores (e.g., SAT, ACT) (required):</label>
+                <input type="text" id="test-scores" name="test-scores">
+                
+                <label for="transcript">Upload Transcript (required):</label>
+                <input type="file" id="transcript" name="transcript" accept=".pdf,.doc,.docx">
+            </section>
+
+            <section class="section1">
+                <h2>Additional Information</h2>
+                <label for="activities">Extracurricular Activities :</label>
+                <textarea id="activities" name="activities" rows="4"></textarea>
+                
+                <label for="statement">Statement of Purpose:</label>
+                <textarea id="statement" name="statement" rows="6"></textarea>
+            </section>
+
+            <section class="section1">
+                <button type="submit">Submit Application</button>
+            </section>
+        </form>
+                    
+                </form>
+            </div><br>
+
+
+
+ 
+ 
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Tranch</p>
+            <p>Ribbleton Lane, Preston, United Kingdom</p>
+            <p>Phone: 123456789| Email: <a href="tranch.com@gmail.com"></a>tranch.com@gmail.com</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61564943009586" class="social-icon" id="facebook">Facebook</a>
+                <a href="https://x.com/TranchCom" class="social-icon" id="twitter">Twitter</a>
+                <a href="https://www.instagram.com/tranchcom/" class="social-icon" id="instagram">Instagram</a>
+            </div>
+        </div>
+    </footer>
+  
+</body>
+</html>
